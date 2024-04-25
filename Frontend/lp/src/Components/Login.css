@@ -1,0 +1,139 @@
+/* login.css */
+.login-container {
+    display: flex;
+    font-family: -apple-system;
+  }
+  
+  .left-section {
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    border-right: 1px solid #e0e0e0;
+    padding: 20px;
+  }
+  
+  .company-name {
+    color: blue;
+    margin-bottom: 10px;
+  }
+  
+  .login-heading {
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .social-buttons {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .social-button {
+    color: black;
+    align-content: center;
+    font-weight: bold;
+    margin: 15px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #888;
+    border-radius: 5px;
+  }
+  
+ /* Update the CSS for the social-icon class */
+.social-icon {
+    vertical-align: middle; /* Add this line to vertically align the icon */
+    margin-right: 5px;
+    width: 38px;
+    height: 38px;
+  }
+  
+  
+  .separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .separator hr {
+    width: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .input-field {
+    position: relative;
+    width: 80%;
+    margin-bottom: 30px;
+    background-color: white;
+    height: 50px;
+    margin-left: 70px;
+    border-radius: 5px;
+  }
+  
+  .input-icon {
+    color: black;
+  }
+  
+  .text-field {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  .remember-checkbox {
+    margin-left: 48px;
+    margin-top: 10px;
+    width: 70px;
+  }
+  
+  .remember-text {
+    color: black;
+    margin-bottom: 20px;
+    font: caption;
+  }
+  
+  .forgot-password {
+    color: blue;
+    margin-bottom: 20px;
+    font: caption;
+  }
+  
+  .login-button {
+    background-color: blue;
+    color: white;
+    width: 480px;
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .signup-text {
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    margin-top: 20px;
+    font: caption;
+  }
+  
+  .signup-link {
+    color: blue;
+
+    text-decoration: none;
+    font: caption;
+  }
+  
+  .right-section {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 50%;
+    height: 100vh;
+    right: 0;
+  }
+  
